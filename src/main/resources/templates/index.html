@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Home</title>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cta a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .cta a:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido</h1>
-    <p>Has iniciado sesión correctamente.</p>
+    <div class="container">
+        <h1>Bienvenido a nuestra aplicación</h1>
+        
+        <div class="section">
+            <h2>¿Qué ofrecemos?</h2>
+            <p>Aquí puedes describir los beneficios y características de tu aplicación.</p>
+        </div>
+        
+        <div class="section">
+            <h2>¿Por qué elegirnos?</h2>
+            <p>Explica por qué tu aplicación es única y qué la diferencia de otras.</p>
+        </div>
+        
+        
+    </div>
 </body>
 </html>

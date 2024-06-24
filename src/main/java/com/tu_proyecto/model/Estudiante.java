@@ -3,6 +3,7 @@ package com.tu_proyecto.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "estudiante")
 public class Estudiante {
 
     @Id
